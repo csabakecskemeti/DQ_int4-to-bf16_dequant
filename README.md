@@ -22,4 +22,9 @@ Debug utility I've used to compare the original and converted safetensors side b
 
 ## TEST-PROOF
 Converted moonshotai/Kimi-K2-Thinking to BF16 then converted to GGUF and qunatized to Q3 GGUF seems working:
-<img width="1740" height="535" alt="Screenshot From 2025-11-07 06-12-41" src="https://github.com/user-attachments/assets/4782b5b0-37b7-461f-9a35-0b1215cc5f41" />
+<img width="1740" height="535" alt="kimi-think-proof" src="https://github.com/user-attachments/assets/c46709bf-56ef-4499-933f-e03f4045706c" />
+
+Zero Shot Hexa-Ball test with Kimi-K2-Thinking Q3:
+![Kimi-Think_Hexa-Ball_test](https://github.com/user-attachments/assets/1cf0f32b-fb65-42ac-854b-bb8f3c935d7a)
+
+
