@@ -20,3 +20,6 @@ Debug utility I've used to compare the original and converted safetensors side b
   python safetensors_diff.py <file>           # Show file contents
   python safetensors_diff.py <file1> <file2> # Diff two files
 
+## TEST-PROOF
+Converted BF16 moonshotai/Kimi-K2-Thinking converted and qunatized to Q3 GGUF seems working:
+<img width="1740" height="535" alt="Screenshot From 2025-11-07 06-12-41" src="https://github.com/user-attachments/assets/4782b5b0-37b7-461f-9a35-0b1215cc5f41" />
