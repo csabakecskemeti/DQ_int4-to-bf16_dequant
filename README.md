@@ -12,3 +12,11 @@ int4_cast_bf16_fixed.py: error: the following arguments are required: --input-in
 NOTE:
 generate_index.py is added as a temp solution when the first version has not generated the safetensor indes json file.
 Now the conversion script should generating it.
+
+## safetensors_diff.py 
+Debug utility I've used to compare the original and converted safetensors side by side
+
+### Usage
+  python safetensors_diff.py <file>           # Show file contents
+  python safetensors_diff.py <file1> <file2> # Diff two files
+
